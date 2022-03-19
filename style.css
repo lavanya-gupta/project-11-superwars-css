@@ -1,3 +1,46 @@
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr 0.5fr 1fr);
+    grid-auto-rows: minmax(200px,auto);
+    grid-column-gap: 10px;
+  
+  }
+  #one{
+    justify-content: flex-end;
+    display: flex;
+    text-align: center;
+  
+  }
+  #three{
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+  
+  }
+  .heros{
+    margin: 5px;
+    border: 2px solid #D4D4D4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .villans{
+    margin: 5px;
+    border: 2px solid #D4D4D4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Scores{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+  
+  }
+  .Rank{
+    font-size: xx-large;
+  }
 .footer{
   margin-left : 80px;
   font-size : 18px;
